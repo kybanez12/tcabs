@@ -1,0 +1,63 @@
+[15-Apr-2022 00:12:22 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/tcabs663/public_html/new/dbcon.php on line 2
+[15-Apr-2022 00:12:22 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home2/tcabs663/public_html/new/user.php on line 4
+[15-Apr-2022 00:19:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home2/tcabs663/public_html/new/user.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/tcabs663/public_html/new/user.php on line 31
+[15-Apr-2022 00:22:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home2/tcabs663/public_html/new/user.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/tcabs663/public_html/new/user.php on line 31
+[15-Apr-2022 00:22:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home2/tcabs663/public_html/new/user.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/tcabs663/public_html/new/user.php on line 31
+[15-Apr-2022 00:27:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home2/tcabs663/public_html/new/user.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/tcabs663/public_html/new/user.php on line 30
+[15-Apr-2022 00:28:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home2/tcabs663/public_html/new/user.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/tcabs663/public_html/new/user.php on line 30
+[21-Apr-2022 05:28:54 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:28:54 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:28:54 America/Chicago] PHP Warning:  include(): Failed opening 'includes/admin.header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:28:54 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:28:54 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:28:54 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:29:29 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:29:29 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:29:29 America/Chicago] PHP Warning:  include(): Failed opening 'includes/admin.header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:29:29 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:29:29 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:29:29 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:29:31 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:29:31 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:29:31 America/Chicago] PHP Warning:  include(): Failed opening 'includes/admin.header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:29:31 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:29:31 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:29:31 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:30:33 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:30:33 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:30:33 America/Chicago] PHP Warning:  include(): Failed opening 'includes/admin.header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:30:33 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:30:33 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:30:33 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:30:35 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:30:35 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:30:35 America/Chicago] PHP Warning:  include(): Failed opening 'includes/admin.header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 10
+[21-Apr-2022 05:30:35 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:30:35 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:30:35 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/index.php on line 18
+[21-Apr-2022 05:30:55 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/register_user.php on line 7
+[21-Apr-2022 05:30:55 America/Chicago] PHP Warning:  include(includes/admin.header.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/register_user.php on line 7
+[21-Apr-2022 05:30:55 America/Chicago] PHP Warning:  include(): Failed opening 'includes/admin.header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/register_user.php on line 7
+[21-Apr-2022 05:30:55 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/register_user.php on line 39
+[21-Apr-2022 05:30:55 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/register_user.php on line 39
+[21-Apr-2022 05:30:55 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/tcabs663/public_html/new/register_user.php on line 39
+[25-Apr-2022 23:49:02 America/Chicago] PHP Warning:  require(dbcon.php): Failed to open stream: No such file or directory in /home2/tcabs663/public_html/new/user.php on line 2
+[25-Apr-2022 23:49:02 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required 'dbcon.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/tcabs663/public_html/new/user.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/tcabs663/public_html/new/user.php on line 2

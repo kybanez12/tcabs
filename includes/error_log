@@ -1,0 +1,10 @@
+[21-Apr-2022 05:31:58 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'kristian'@'localhost' (using password: YES) in /home2/tcabs663/public_html/new/includes/dbcon.php on line 4
+[25-Apr-2022 23:47:19 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[25-Apr-2022 23:50:22 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[25-Apr-2022 23:50:24 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[26-Apr-2022 00:00:46 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[26-Apr-2022 00:01:50 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[26-Apr-2022 00:01:54 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[26-Apr-2022 00:36:48 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[26-Apr-2022 00:36:51 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[26-Apr-2022 00:55:07 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11

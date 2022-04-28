@@ -1,0 +1,5 @@
+tcabs: 
+
+4hours 21/04/2022 - added two new columns to user table to store birthday and password, added new input on html form to capture birthday data. sets password to users bday in format DDMMYYYY 
+2 hours 19/04 - edited user table to include foreign key from roles table. populated roles table.
+2 hours 15/04 - created header.php, footer.php and register_user.php. added css styling using materialize css
