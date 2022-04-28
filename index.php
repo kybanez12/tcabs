@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+include("includes/dbcon.php");
+include("includes/functions.php");
+
+$user_data = check_login($con);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,16 +21,6 @@
 
 <div class="container">
 	<h1 class="center">Welcome to TCABS</h1>
-	        <div id="login">
-	          <form method="POST" enctype="multipart/form-data" action="includes/add.user.php">
-                <div class="label">Username: <input type="text" name="uname"></div>
-                <div class="label">Password: <input type="text" name="pword"></div>
-                                </div>
-                <div class="submit"><input type="submit" name="login" value="Login" /></div>
-        </div>
-
 </div>
-	
-
 <?php include('includes/footer.php'); ?>
 </html>

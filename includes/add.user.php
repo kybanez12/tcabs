@@ -1,19 +1,20 @@
 <?php
 /* Attempt to connect to MySQL database */
 require("dbcon.php");
+require("functions.php");
 
 //checks if values are not empty
 if(isset($_POST["add_user"]) && !empty($_POST["fname"]) && !empty($_POST["sname"]) && !empty($_POST["birthday"]) && !empty($_POST["mobile"]) && !empty($_POST["email"]) && !empty($_POST["role"])) {
 
-// stores data
+// stores data in variables
 $fname = $_POST["fname"];
 $sname = $_POST["sname"];
 $mobile = $_POST["mobile"];
 $birthday = date("Y-d-m", strtotime($_POST["birthday"]));
 $email = $_POST["email"];
-$formatpw = date("m-d-Y", strtotime($_POST["birthday"]));
-$password  = str_replace('-', '', $formatpw);
+$password  = createTempPassword($birthday);
 
+// sets role
 if ($_POST["role"] == "admin") {
     $role = 1;
 }
@@ -40,7 +41,7 @@ $i_users = "INSERT INTO USER (ufname, usname, birthday, umobile, uemail, rid, pW
 mysqli_query($con,$i_users);
 $id=mysqli_insert_id($con);
 
-
+// fetches data from database and stores in array
 $sel_user = "SELECT ufname,usname,pWord,uemail from USER ORDER by usname ASC";
 $u_result = mysqli_query($con, $sel_user);
 echo "<body>";

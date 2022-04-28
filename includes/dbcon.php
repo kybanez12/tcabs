@@ -1,11 +1,7 @@
 <?php
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'tcabs663_braden');
-define('DB_PASSWORD', 'admin123');
-define('DB_NAME', 'tcabs663_tcabs');
 
 /* Attempt to connect to MySQL database */
-$con = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$con = mysqli_connect('localhost', 'kristian', 'mk(_Jz]PBMUq._Mv', 'tcabs');
  
 // Check connection
 if($con === false){

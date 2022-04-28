@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>PHP Add User</title>
-<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TCABS</title>
+</head>
 
-<?php include('includes/header.php');?>
-    <div class="container">
-        <h3 class="center">Login</h3>
-        <div id="login">
-            <form method="POST" enctype="multipart/form-data" action="includes/login.inc.php">
-                <div class="label">User ID or Email: <input type="text" name="name"></div>
-                <div class="label">Password: <input type="password" name="password"></div>
+<?php include('includes/index.header.php'); ?>
+
+<div class="container">
+	<h1 class="center">Welcome to TCABS</h1>
+	        <div id="login">
+	          <form method="POST" enctype="multipart/form-data" action="includes/login.inc.php">
+                <div class="label">User ID: <input type="text" name="uID"></div>
+                <div class="label">Password: <input type="password" name="pword"></div>
                 <div class="submit"><input type="submit" name="login" value="Login" /></div>
         </div>
-    </div>
 
-<?php include('includes/footer.php');?>
+</div>
+	
+
+<?php include('includes/footer.php'); ?>
+</html>
