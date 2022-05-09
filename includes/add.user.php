@@ -57,8 +57,8 @@ $sname = $r["usname"];
 $password = $r["pWord"];
 $email = $r["uemail"];
 echo "<div> First Name: " . $fname . "<br> Surname: " . $sname . "<br> Password: " . $password . "<br> Email: " . $email . "</div>";
-}
-echo "<div><a href=\"http://localhost/TCABS/register_user.php\">&laquo; Back to form</a></div>";
+
+echo "<div><a href=\"http://localhost/TCABS/register-user.php\">&laquo; Back to form</a></div>";
 echo "</div>";
 echo "</body>";
 echo "</html>";
