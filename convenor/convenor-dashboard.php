@@ -1,3 +1,4 @@
+<!-- This page will be the landing page for an convenor after login -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,13 +27,13 @@
     <h2 class="center">Welcome to TCABS</h2><br><br>
     <h5 class = "center"> Please choose an option:</h5> <br>
     <div class="container">
-            <ul id="nav-mobile" class="center hide-on-small-and-down">
-                <li><a href="register-user.php" class="btn brand z-depth-0">Register New User</a></li> <br>
-                <li><a href="register-unit.php" class="btn brand z-depth-0">Register Unit of Study</a></li><br>
-                <li><a href="enrol-student.php" class="btn brand z-depth-0">Enrol Student</a></li><br>
-            </ul>
-        </div>
+        <ul id="nav-mobile" class="center hide-on-small-and-down">
+                <li><a href="manage-teams.php" class="btn brand z-depth-0">Manage Teams</a></li><br>
+                <li><a href="manage-projects.php" class="btn brand z-depth-0">Manage Projects</a></li><br>
+                <li><a href="manage-supervisors.php" class="btn brand z-depth-0">Manage Supervisors</a></li>
+        </ul><br><br>
+    </div>
 
 
-  <?php include('includes/footer.php'); ?>
+  <?php include('../includes/footer.php'); ?>
   </html>

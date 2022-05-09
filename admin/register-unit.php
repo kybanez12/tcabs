@@ -1,10 +1,11 @@
+<!-- This page allows an admin to register a new unit -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Register Unit</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
-<?php include('includes/admin-header.php');?>
+<?php include('admin-header.php');?>
     <div class="container">
         <h3 class="center">Register a new Unit</h3>
         <div class="row">

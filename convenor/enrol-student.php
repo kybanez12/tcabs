@@ -1,10 +1,11 @@
+<!-- This page allows a convenor to enrol a student into a unit of study -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Enrol Student</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
-<?php include('includes/admin-header.php');?>
+<?php include('convenor-header.php');?>
     <div class="container">
         <h3 class="center">Enrol Student</h3>
         <div class="row">

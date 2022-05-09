@@ -1,4 +1,4 @@
     <footer class="section">
-        <div class="center grey-text">Copyright 2022 TCABS</div>
+        <div class="center grey-text"></div>
     </footer>
 </body>

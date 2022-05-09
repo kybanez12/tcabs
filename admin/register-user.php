@@ -1,10 +1,11 @@
+<!-- This page allows an admin to register a new user and set role -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Register User</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
-<?php include('includes/admin-header.php');?>
+<?php include('admin-header.php');?>
     <div class="container">
         <h4 class="center">Register a new User</h4><br>
         <div class="row">
