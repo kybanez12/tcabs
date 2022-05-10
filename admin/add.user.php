@@ -64,5 +64,5 @@ echo "</body>";
 echo "</html>";
 }
 else {
-    header("location: ../register_user.php");
+    header("location: ../register-user.php");
 }

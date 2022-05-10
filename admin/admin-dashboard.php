@@ -28,8 +28,9 @@
     <h5 class = "center"> Please choose an option:</h5> <br>
     <div class="container">
             <ul id="nav-mobile" class="center hide-on-small-and-down">
-                <li><a href="view-convenors.php" class="btn brand z-depth-0">Manage Convenors</a></li> <br>
-                <li><a href="view-students.php" class="btn brand z-depth-0">Manage Students</a></li><br>
+                <li><a href="manage-users.php" class="btn brand z-depth-0">Manage Users</a></li> <br>
+                <li><a href="manage-units.php" class="btn brand z-depth-0">Manage Units</a></li><br>
+                <li><a href="enrol-student.php" class="btn brand z-depth-0">Enrol Student</a></li><br>
             </ul>
         </div>
 
