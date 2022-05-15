@@ -1,8 +1,9 @@
 <!-- This page will be the landing page for an convenor after login -->
+<!-- need to write code to check if user is logged in -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Dashboard</title>
+<title>Convenor Dashboard</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -18,7 +19,7 @@
 <body class="grey lighten-4">
     <nav class="white z-depth-0">   
         <div class="container">
-            <a href="index.php" class="brand-logo brand-text">TCABS</a>
+            <a href="convenor-dashboard.php" class="brand-logo brand-text">TCABS</a>
             <ul id="nav-mobile" class="right hide-on-small-and-down">
                 <li><a href="logout.php" class="btn brand z-depth-0">Log Out</a></li>
             </ul>
@@ -33,7 +34,5 @@
                 <li><a href="manage-supervisors.php" class="btn brand z-depth-0">Manage Supervisors</a></li>
         </ul><br><br>
     </div>
-
-
   <?php include('../includes/footer.php'); ?>
   </html>

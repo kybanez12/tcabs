@@ -15,7 +15,7 @@
 <body class="grey lighten-4">
     <nav class="white z-depth-0">   
         <div class="container">
-            <a href="index.php" class="brand-logo brand-text">TCABS</a>
+            <a href="../index.php" class="brand-logo brand-text">TCABS</a>
         </div>
     </nav>
     

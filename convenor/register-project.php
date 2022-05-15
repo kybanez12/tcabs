@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Register Team</title>
+<title>Register Project</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
 <?php include('convenor-header.php');?>
     <div class="container">
-        <h3 class="center">Register a Team</h3>
+        <h3 class="center">Register a Project</h3>
         <div class="row">
             <form class="col s12" method="POST" enctype="multipart/form-data" action="">
                 <div class="row">

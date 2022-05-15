@@ -7,7 +7,7 @@
 	<title>TCABS</title>
 </head>
 
-<?php include('includes/index.header.php'); ?>
+<?php include('../includes/index.header.php'); ?>
 
 <div class="container">
 	<h1 class="center">Welcome to TCABS</h1>
@@ -21,5 +21,5 @@
 </div>
 	
 
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 </html>

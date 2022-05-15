@@ -5,7 +5,7 @@
 <title>Enrol Student</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
-<?php include('convenor-header.php');?>
+<?php include('admin-header.php');?>
     <div class="container">
         <h3 class="center">Enrol Student</h3>
         <div class="row">

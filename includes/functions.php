@@ -92,7 +92,7 @@
             exit();
         }
     }
-
+    //checks if user logged in
     function check_login($con) {
         if(isset($_SESSION["uid"])) {
             $id = $_SESSION['uid'];
@@ -105,7 +105,7 @@
             }
         }
         //redirect to login
-        header("location: login.php");
+        header("location: login/login.php");
         die;
     }
     

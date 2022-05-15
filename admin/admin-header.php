@@ -14,10 +14,10 @@
 <body class="grey lighten-4">
     <nav class="white z-depth-0">   
         <div class="container">
-            <a href="index.php" class="brand-logo brand-text">TCABS</a>
+            <a href="admin-dashboard.php" class="brand-logo brand-text">TCABS</a>
             <ul id="nav-mobile" class="right hide-on-small-and-down">
-                <li><a href="manage-user.php" class="btn brand z-depth-0">Users</a></li>
-                <li><a href="manage-unit.php" class="btn brand z-depth-0">Units</a></li>
+                <li><a href="manage-users.php" class="btn brand z-depth-0">Users</a></li>
+                <li><a href="manage-units.php" class="btn brand z-depth-0">Units</a></li>
                 <li><a href="enrol-student.php" class="btn brand z-depth-0">Enrol Student</a></li>
                 <li><a href="logout.php" class="btn brand z-depth-0">Log Out</a></li>
             </ul>
