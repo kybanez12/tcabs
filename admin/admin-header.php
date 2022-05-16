@@ -19,7 +19,7 @@
                 <li><a href="manage-users.php" class="btn brand z-depth-0">Users</a></li>
                 <li><a href="manage-units.php" class="btn brand z-depth-0">Units</a></li>
                 <li><a href="enrol-student.php" class="btn brand z-depth-0">Enrol Student</a></li>
-                <li><a href="logout.php" class="btn brand z-depth-0">Log Out</a></li>
+                <li><a href="../login/logout.php" class="btn brand z-depth-0">Log Out</a></li>
             </ul>
         </div>
     </nav>
