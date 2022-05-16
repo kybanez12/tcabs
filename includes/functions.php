@@ -92,6 +92,8 @@
             exit();
         }
     }
+
+    
     //checks if user logged in
     function check_login($con) {
         if(isset($_SESSION["uid"])) {
