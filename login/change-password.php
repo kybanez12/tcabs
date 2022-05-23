@@ -21,7 +21,7 @@
         </div>
     </nav>
     <div class="container">
-        <h5 class="center">Please enter new password</h5> <br>
+        <h5 class="center">Please choose a new password</h5> <br>
         <div id="row">
             <form class="col s12"method="POST" enctype="multipart/form-data" action="">
             <div class="row">

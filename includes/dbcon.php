@@ -1,8 +1,10 @@
 <?php
+session_start();
+
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'tcabs663_braden');
-define('DB_PASSWORD', 'admin123');
-define('DB_NAME', 'tcabs663_tcabs');
+define('DB_USERNAME', 'kristian');
+define('DB_PASSWORD', 'mk(_Jz]PBMUq._Mv');
+define('DB_NAME', 'tcabs');
 
 /* Attempt to connect to MySQL database */
 $con = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);

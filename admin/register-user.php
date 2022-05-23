@@ -1,41 +1,40 @@
-<!-- This page allows an admin to register a new user and set role -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Register User</title>
-<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
 
 <?php include('admin-header.php');?>
     <div class="container">
         <h4 class="center">Register a new User</h4><br>
         <div class="row">
-            <form class="col s12" method="POST" enctype="multipart/form-data" action="includes/add.user.php">
+            <form class="col s12" method="POST" enctype="multipart/form-data" action="add.user.php">
                 <div class="row">
                     <div class="input-field col s6">
-                        <input id="fname" type="text" class="validate">
+                        <input id="fname" name="fname" type="text" class="validate">
                         <label for="fname">First Name</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="sname" type="text" class="validate">
-                        <label for="lname">Last Name</label>
+                        <input id="sname" name="sname" type="text" class="validate">
+                        <label for="sname">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input type="text" name="birthday" class="datepicker">
+                        <label for="birthday">Birthday</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="birthday" type="text" class="validate">
-                        <label for="fname">Date of Birth</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="mobile" type="text" class="validate">
+                        <input id="mobile" name="mobile" type="text" class="validate">
                         <label for="mobile">Mobile</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="email" type="text" class="validate">
-                        <label for="mobile">Email</label>
+                        <input id="email" type="text" name="email" class="validate">
+                        <label for="email">Email</label>
                     </div>
                 </div>
                 <div class="input-field">
@@ -57,8 +56,12 @@
         document.addEventListener('DOMContentLoaded', function() {
             var sel = document.querySelectorAll('select');
             M.FormSelect.init(sel);
+            var elems = document.querySelectorAll('.datepicker');
+            M.Datepicker.init(elems, {
+            format:'dd-mm-yyyy'
+        })
         });
     </script>
 
-  <?php include('includes/footer.php'); ?>
+  <?php include('../includes/footer.php'); ?>
   </html>
