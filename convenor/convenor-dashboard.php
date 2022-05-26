@@ -21,7 +21,7 @@
         <div class="container">
             <a href="convenor-dashboard.php" class="brand-logo brand-text">TCABS</a>
             <ul id="nav-mobile" class="right hide-on-small-and-down">
-                <li><a href="../login/logout.php" class="btn brand z-depth-0">Log Out</a></li>
+                <li><a href="../logout.php" class="btn brand z-depth-0">Log Out</a></li>
             </ul>
         </div>
     </nav>
