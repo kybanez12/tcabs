@@ -3,6 +3,8 @@
 /* Attempt to connect to MySQL database */
 include_once("../includes/dbcon.php");
 
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
 //checks if values are not empty
 if($_SERVER['REQUEST_METHOD'] == "POST") 
 {
@@ -54,7 +56,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="pdescription" name="pdescription"  class="materialize-textarea">
+                        <input id="pdescription" name="pdescription" type="text" class="validate">
                         <label for="pdescription">Project Description</label>
                     </div>
                 </div>

@@ -6,7 +6,8 @@
     $row = mysqli_fetch_assoc($result);
     $result->close();
     $con->next_result();
-
+    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+    
     if ($_SERVER['REQUEST_METHOD'] == "POST")
     {
         $tName = mysqli_real_escape_string($con, $_POST["tname"]);

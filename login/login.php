@@ -47,8 +47,9 @@
 <html>
 <head>
 	<title>Login</title>
-</head>
-<body>
+
+<?php include('../includes/index.header.php');?>
+
 
 <div class="container">
 	<h1 class="center">Welcome to TCABS</h1>
@@ -58,7 +59,7 @@
                 <div class="label">Password: <input type="password" name="pword"></div>
                 <div class="submit"><input type="submit" name="login" value="Login" /></div>
 				
-				<a href="signup.php">Click to Register</a><br><br>
+				<a href="signup.php" class="right btn brand z-depth-0">Click to Register</a><br><br>
 				</form>
         </div>
 

@@ -21,7 +21,7 @@
         <div class="container">
             <a href="admin-dashboard.php" class="brand-logo brand-text">TCABS</a>
             <ul id="nav-mobile" class="right hide-on-small-and-down">
-                <li><a href="../login/logout.php" class="btn brand z-depth-0">Log Out</a></li>
+                <li><a href="../logout.php" class="btn brand z-depth-0">Log Out</a></li>
             </ul>
         </div>
     </nav>
@@ -31,7 +31,7 @@
             <ul id="nav-mobile" class="center hide-on-small-and-down">
                 <li><a href="manage-users.php" class="btn brand z-depth-0">Manage Users</a></li> <br>
                 <li><a href="manage-units.php" class="btn brand z-depth-0">Manage Units</a></li><br>
-                <li><a href="enrol-student.php" class="btn brand z-depth-0">Enrol Student</a></li><br>
+                <li><a href="enrolment.php" class="btn brand z-depth-0">Enrolment</a></li><br>
             </ul>
         </div>
   <?php include('../includes/footer.php'); ?>

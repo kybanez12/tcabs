@@ -3,6 +3,8 @@
 /* Attempt to connect to MySQL database */
 include_once("../includes/dbcon.php");
 
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
 //checks if values are not empty
 if($_SERVER['REQUEST_METHOD'] == "POST") 
 {
@@ -16,7 +18,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
         try 
         {
             $stmt->execute();
-            echo "<script>alert('Team added successfully')</script>";
+            echo "<script>alert('Team added successfully'); windows.replace(manage-teams.php)</script>";
         }
         catch (Exception $e)
         {
@@ -28,6 +30,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
     {
         echo "<script>alert('Please enter all fields')</script>";
     }
+    $stmt->close();
+    $con->next_result();
 }
 ?>
 <!DOCTYPE html>

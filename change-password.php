@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>TCABS</title>
     <!-- Compiled and minified CSS -->
@@ -18,4 +20,18 @@
             <a href="index.php" class="brand-logo brand-text">TCABS</a>
         </div>
     </nav>
-    
+    <div class="container">
+        <h5 class="center">Please enter new password</h5> <br>
+        <div id="row">
+            <form class="col s12"method="POST" enctype="multipart/form-data" action="">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="submit"><input type="submit" name="chgPw" value="Submit" /></div>
+        </div>
+    </div>
+
+<?php include('includes/footer.php');?>

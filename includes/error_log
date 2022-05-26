@@ -8,3 +8,550 @@
 [26-Apr-2022 00:36:48 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
 [26-Apr-2022 00:36:51 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
 [26-Apr-2022 00:55:07 America/Chicago] PHP Warning:  Undefined variable $link in /home2/tcabs663/public_html/new/includes/dbcon.php on line 11
+[20-May-2022 03:37:50 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 03:37:50 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 03:42:22 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 03:42:22 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 03:42:41 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 03:42:41 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(14): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 03:42:53 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 03:42:53 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(14): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 03:51:02 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 03:51:02 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(14): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 03:51:23 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 03:51:23 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(14): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 03:59:14 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 03:59:14 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(14): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:00:23 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:00:23 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:00:26 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:00:26 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:00:34 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:00:34 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', 'asd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:00:40 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:00:40 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', 'asd')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), 'asd')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), 'asd', 'asd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:00:49 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 04:00:49 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 04:01:51 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:01:51 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:06:05 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:06:05 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(76): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:06:07 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:06:07 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(76): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:06:10 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:06:10 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(76): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:06:54 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 04:06:54 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 04:06:58 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:06:58 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(77): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', 'aa')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:07:26 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:07:26 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(77): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', 'aa')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:07:52 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:07:52 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(77): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', 'aa')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:08:25 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:08:25 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:59
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(59): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(78): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', 'aa')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 59
+[20-May-2022 04:08:44 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:08:44 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:60
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(60): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(79): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', 'aa')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 60
+[20-May-2022 04:09:13 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:09:13 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:60
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(60): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(79): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', 'aa')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 60
+[20-May-2022 04:09:33 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:09:33 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home2/tcabs663/public_html/test/includes/functions.php:60
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(60): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(80): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', 'aa')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 60
+[20-May-2022 04:11:52 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:11:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:69) in /home2/tcabs663/public_html/test/includes/functions.php on line 81
+[20-May-2022 04:12:12 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 04:12:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:69) in /home2/tcabs663/public_html/test/includes/functions.php on line 81
+[20-May-2022 04:29:56 America/Chicago] PHP Parse error:  syntax error, unexpected token "exit", expecting "," or ";" in /home2/tcabs663/public_html/test/includes/functions.php on line 57
+[20-May-2022 04:30:00 America/Chicago] PHP Parse error:  syntax error, unexpected token "exit", expecting "," or ";" in /home2/tcabs663/public_html/test/includes/functions.php on line 57
+[20-May-2022 04:30:22 America/Chicago] PHP Parse error:  syntax error, unexpected token "exit", expecting "," or ";" in /home2/tcabs663/public_html/test/includes/functions.php on line 57
+[20-May-2022 04:30:25 America/Chicago] PHP Parse error:  syntax error, unexpected token "exit", expecting "," or ";" in /home2/tcabs663/public_html/test/includes/functions.php on line 57
+[20-May-2022 04:30:28 America/Chicago] PHP Parse error:  syntax error, unexpected token "exit", expecting "," or ";" in /home2/tcabs663/public_html/test/includes/functions.php on line 57
+[20-May-2022 04:31:18 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 04:31:18 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 04:31:18 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 04:31:18 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 04:31:21 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 04:31:21 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 04:31:22 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 04:31:22 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 04:33:33 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$query", expecting "," or ";" in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 04:33:40 America/Chicago] PHP Parse error:  syntax error, unexpected variable "$query", expecting "," or ";" in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 04:33:51 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 04:33:51 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 04:33:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:52) in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 04:36:02 America/Chicago] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', '22')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(15): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 04:54:14 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 17
+[20-May-2022 04:54:19 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 17
+[20-May-2022 04:54:37 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 17
+[20-May-2022 04:55:20 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 18
+[20-May-2022 04:55:22 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 18
+[20-May-2022 04:55:51 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 18
+[20-May-2022 04:55:53 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 18
+[20-May-2022 04:56:13 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 18
+[20-May-2022 04:56:21 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 18
+[20-May-2022 04:57:44 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 04:57:44 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 04:57:44 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 04:57:44 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 04:58:54 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 04:58:54 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 04:59:37 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 15
+[20-May-2022 05:00:17 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 15
+[20-May-2022 05:00:19 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 15
+[20-May-2022 05:00:34 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 15
+[20-May-2022 05:01:00 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 15
+[20-May-2022 05:01:39 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:01:39 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:01:54 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:01:54 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:01:54 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:01:54 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:05:25 America/Chicago] PHP Parse error:  syntax error, unexpected identifier "CheckUser", expecting ")" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 16
+[20-May-2022 05:07:36 America/Chicago] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', 'a')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), 'a')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(13): loginUser(Object(mysqli), 'a', 'a')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 05:12:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/login.inc.php:12) in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:12:37 America/Chicago] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', 'a')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), 'a')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(13): loginUser(Object(mysqli), 'a', 'a')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 05:12:57 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:12:57 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:12:57 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:12:57 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:13:02 America/Chicago] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home2/tcabs663/public_html/test/includes/functions.php:58
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(58): mysqli_stmt_bind_param(Object(mysqli_stmt), 's', 'a')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(74): findUser(Object(mysqli), 'a')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), 'a', 's')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 05:14:16 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 74
+[20-May-2022 05:14:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:74) in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:15:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:52) in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:16:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:74) in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:16:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:74) in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:16:26 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 74
+[20-May-2022 05:16:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:74) in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:16:46 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 05:16:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:52) in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:17:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:52) in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:17:17 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 05:17:17 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:52) in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:17:36 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:17:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:53) in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:17:53 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:17:53 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:17:53 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:17:53 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:17:55 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:17:55 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:17:58 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:17:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:54) in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:18:18 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:18:18 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:18:18 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:18:18 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:18:23 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:18:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:55) in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:19:21 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:19:21 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:19:21 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:19:21 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:19:25 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 58
+[20-May-2022 05:19:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:58) in /home2/tcabs663/public_html/test/includes/functions.php on line 79
+[20-May-2022 05:19:49 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 60
+[20-May-2022 05:19:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:60) in /home2/tcabs663/public_html/test/includes/functions.php on line 80
+[20-May-2022 05:20:09 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 61
+[20-May-2022 05:20:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:61) in /home2/tcabs663/public_html/test/includes/functions.php on line 79
+[20-May-2022 05:20:29 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 62
+[20-May-2022 05:20:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:62) in /home2/tcabs663/public_html/test/includes/functions.php on line 78
+[20-May-2022 05:20:46 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:20:46 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:20:46 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:20:46 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:28:13 America/Chicago] PHP Parse error:  syntax error, unexpected token "else" in /home2/tcabs663/public_html/test/includes/functions.php on line 67
+[20-May-2022 05:29:01 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:29:01 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:29:01 America/Chicago] PHP Parse error:  syntax error, unexpected token "else" in /home2/tcabs663/public_html/test/includes/functions.php on line 67
+[20-May-2022 05:29:04 America/Chicago] PHP Parse error:  syntax error, unexpected token "else" in /home2/tcabs663/public_html/test/includes/functions.php on line 67
+[20-May-2022 05:29:06 America/Chicago] PHP Parse error:  syntax error, unexpected token "else" in /home2/tcabs663/public_html/test/includes/functions.php on line 67
+[20-May-2022 05:33:35 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/tcabs663/public_html/test/includes/functions.php on line 91
+[20-May-2022 05:33:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:57) in /home2/tcabs663/public_html/test/includes/functions.php on line 95
+[20-May-2022 05:33:46 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/tcabs663/public_html/test/includes/functions.php on line 91
+[20-May-2022 05:33:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:57) in /home2/tcabs663/public_html/test/includes/functions.php on line 95
+[20-May-2022 05:34:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:76) in /home2/tcabs663/public_html/test/includes/functions.php on line 87
+[20-May-2022 05:34:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:76) in /home2/tcabs663/public_html/test/includes/functions.php on line 87
+[20-May-2022 05:34:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:76) in /home2/tcabs663/public_html/test/includes/functions.php on line 87
+[20-May-2022 05:34:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:76) in /home2/tcabs663/public_html/test/includes/functions.php on line 87
+[20-May-2022 05:35:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:76) in /home2/tcabs663/public_html/test/includes/functions.php on line 87
+[20-May-2022 05:35:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:76) in /home2/tcabs663/public_html/test/includes/functions.php on line 87
+[20-May-2022 05:36:20 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:36:20 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:36:20 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:36:20 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:36:23 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 05:36:23 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/tcabs663/public_html/test/includes/functions.php on line 91
+[20-May-2022 05:36:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:57) in /home2/tcabs663/public_html/test/includes/functions.php on line 95
+[20-May-2022 05:36:28 America/Chicago] PHP Warning:  Undefined variable $uname in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 05:36:28 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/tcabs663/public_html/test/includes/functions.php on line 91
+[20-May-2022 05:36:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tcabs663/public_html/test/includes/functions.php:57) in /home2/tcabs663/public_html/test/includes/functions.php on line 95
+[20-May-2022 05:40:21 America/Chicago] PHP Warning:  Undefined variable $rowcount in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 05:40:21 America/Chicago] PHP Warning:  Undefined variable $conn in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:40:21 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:40:21 America/Chicago] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(NULL, NULL)
+#1 /home2/tcabs663/public_html/test/includes/functions.php(84): findUser(Object(mysqli), 'a')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), 'a', 'a')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:40:32 America/Chicago] PHP Warning:  Undefined variable $rowcount in /home2/tcabs663/public_html/test/includes/functions.php on line 52
+[20-May-2022 05:40:32 America/Chicago] PHP Warning:  Undefined variable $conn in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:40:32 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:40:32 America/Chicago] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(NULL, NULL)
+#1 /home2/tcabs663/public_html/test/includes/functions.php(84): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'admin')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:40:38 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:40:38 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:40:39 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:40:39 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:43:46 America/Chicago] PHP Warning:  Undefined variable $conn in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:43:46 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:43:46 America/Chicago] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(NULL, NULL)
+#1 /home2/tcabs663/public_html/test/includes/functions.php(84): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'asd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:43:51 America/Chicago] PHP Warning:  Undefined variable $conn in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:43:51 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:43:51 America/Chicago] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(NULL, NULL)
+#1 /home2/tcabs663/public_html/test/includes/functions.php(84): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'asd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:43:56 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:43:56 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:44:45 America/Chicago] PHP Warning:  Undefined variable $conn in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:44:45 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:44:45 America/Chicago] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(NULL, NULL)
+#1 /home2/tcabs663/public_html/test/includes/functions.php(84): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:45:36 America/Chicago] PHP Warning:  Undefined array key "uID" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 3
+[20-May-2022 05:45:36 America/Chicago] PHP Warning:  Undefined array key "pword" in /home2/tcabs663/public_html/test/includes/login.inc.php on line 4
+[20-May-2022 05:45:36 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:45:36 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:45:41 America/Chicago] PHP Warning:  Undefined variable $conn in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:45:41 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:45:41 America/Chicago] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(NULL, NULL)
+#1 /home2/tcabs663/public_html/test/includes/functions.php(85): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'asdsd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:46:09 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:46:09 America/Chicago] PHP Warning:  Undefined variable $conn in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:46:09 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:46:09 America/Chicago] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/tcabs663/public_html/test/includes/functions.php:54
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(54): mysqli_query(NULL, NULL)
+#1 /home2/tcabs663/public_html/test/includes/functions.php(85): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'asdsd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:46:33 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:46:33 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(85): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'asdsd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:46:36 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:46:36 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(85): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'asdsd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:47:17 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:47:17 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(84): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'asdsd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:48:10 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:48:10 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:48:10 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:55
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(55): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(86): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'asdsd')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:50:03 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:50:03 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:50:15 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:50:15 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:50:15 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:55
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(55): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(86): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:50:56 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:50:56 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(85): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:51:30 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:51:30 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(87): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:51:32 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:51:32 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(87): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:52:10 America/Chicago] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:52:30 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[20-May-2022 05:52:30 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[20-May-2022 05:52:41 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:52:41 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:52:41 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:52:41 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:56
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(56): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(90): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:53:46 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:53:46 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:53:46 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:53:46 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:56
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(56): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(90): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 56
+[20-May-2022 05:54:10 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:54:10 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:53
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(53): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(87): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:54:23 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:54:23 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:54:23 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:54:23 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:55
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(55): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(89): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:54:41 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[20-May-2022 05:54:41 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:54:41 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:54:41 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:55
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(55): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(89): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:54:57 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:54:57 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:54:57 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:55
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(55): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(89): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:55:17 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[20-May-2022 05:55:17 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 05:55:17 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:55
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(55): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(89): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', '19951127')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[20-May-2022 06:00:04 America/Chicago] PHP Parse error:  Unclosed '{' on line 51 in /home2/tcabs663/public_html/test/includes/functions.php on line 139
+[20-May-2022 06:00:08 America/Chicago] PHP Parse error:  Unclosed '{' on line 51 in /home2/tcabs663/public_html/test/includes/functions.php on line 139
+[21-May-2022 08:34:31 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 43
+[21-May-2022 08:34:31 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 48
+[21-May-2022 08:37:02 America/Chicago] PHP Warning:  Undefined variable $result in /home2/tcabs663/public_html/test/includes/functions.php on line 53
+[21-May-2022 08:37:02 America/Chicago] PHP Warning:  Undefined variable $username in /home2/tcabs663/public_html/test/includes/functions.php on line 54
+[21-May-2022 08:37:02 America/Chicago] PHP Warning:  Undefined variable $sql in /home2/tcabs663/public_html/test/includes/functions.php on line 55
+[21-May-2022 08:37:02 America/Chicago] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/tcabs663/public_html/test/includes/functions.php:55
+Stack trace:
+#0 /home2/tcabs663/public_html/test/includes/functions.php(55): mysqli_query(Object(mysqli), '')
+#1 /home2/tcabs663/public_html/test/includes/functions.php(89): findUser(Object(mysqli), '22')
+#2 /home2/tcabs663/public_html/test/includes/login.inc.php(12): loginUser(Object(mysqli), '22', 'admin123')
+#3 {main}
+  thrown in /home2/tcabs663/public_html/test/includes/functions.php on line 55

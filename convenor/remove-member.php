@@ -9,6 +9,7 @@ $row = $result;
 $result->close();
 $con->next_result();
 $stmt = "Call DeleteMember($id)";
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 try 
 {

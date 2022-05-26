@@ -2,32 +2,24 @@
 /* Attempt to connect to MySQL database */
 include_once("../includes/dbcon.php");
 
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 if($_SERVER['REQUEST_METHOD'] == "POST") 
 {
     $uID = mysqli_real_escape_string($con, $_POST['uID']);
     $tID = mysqli_real_escape_string($con, $_POST['tID']);
 
-    // check for Project Manager
-    if (!empty($_POST['pmCheck'])) 
-    {
-        $pmcheck = 1;
-    }
-    else
-    {
-        $pmcheck = 0;
-    }
-    
     // checks if inputs are emtpy
     if (!empty($uID) && !empty($tID)) 
     {
-        $stmt = $con->prepare("CALL AddTeamMember(?, ?, ?)");
-        $stmt->bind_param('iii', $uID, $tID, $pmCheck);
+        $stmt = $con->prepare("CALL AddTeamMember(?,?)");
+        $stmt->bind_param('ii', $uID, $tID);
 
         try 
         {
             $stmt->execute();
-            echo "<script>alert('Team Member added successfully')</script>";
+            echo "<script>alert('Team Member added')</script>";
+            
         }
         catch (Exception $e)
         {
@@ -39,6 +31,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
     {
         echo "<script>alert('Please enter User and Team ID')</script>";
     }
+    $stmt->close();
+    $con->next_result();
 }
 ?>
 
@@ -66,13 +60,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
                     <div class="input-field col s12">
                         <input id="tID" name="tID" type="text" class="validate">
                         <label for="tID">Team ID</label>
-                    </div>
-                    
-                    <div class="col s12">
-                        <label>
-                            <input type="checkbox" name="pmCheck" value="1"/>
-                            <span>Project Manager</span>
-                        </label>
                     </div>
 
                 </div>
